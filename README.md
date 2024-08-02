@@ -5,4 +5,4 @@ To compare emotes in the embedding space, cosine similarity was the metric we us
 This repository goes through the entire pipeline process of extracting toxic emotes from HasanAbi chat logs, visualizing the dataset, using t-SNE to identify other potential toxic HasanAbi emotes not discovered from the chat logs, and using those toxic and potentially toxic HasanAbi emotes to identify toxic emotes in other channels. The purpose of this is to help moderators since they are more aware to look out for messages that contain those toxic emotes. In addition, viewers of the Twitch stream will enjoy the experience more since there is less toxicity.
 
 # Dataset used:
-We used the Emotes-2-Vec dataset available at [](https://zenodo.org/records/8012284).  
+We used the Emotes-2-Vec dataset available at [Emotes-2-Vec](https://zenodo.org/records/8012284).  
