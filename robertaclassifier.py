@@ -9,6 +9,8 @@ import pandas as pd
 
 #read HasanAbi csv file (only need comment column)
 df = pd.read_csv("HasanAbiData\ name of csv file you want to read", usecols = ["comment"])
+#Note that you can read multiple HasanAbi csv files into seperate dataframes and then concatenate them into one.
+
 df = df.dropna() #remove rows with null values
 
 # Custom function to count number of words
