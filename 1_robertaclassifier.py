@@ -1,6 +1,6 @@
 """
 This file has code that removes short comments and uses the Roberta Toxicity Classifier to classify them as toxic or not toxic.
-Our results are then written to a new csv file.
+Our results are then written to a new csv file
 """
 
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
