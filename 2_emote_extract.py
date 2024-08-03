@@ -1,7 +1,7 @@
 """
 This file contains code to extract all the emotes from the output csv file of the roberta classifier (output_toxicity.csv), and calculate 
 details such as the number of times it was seen as toxic and non-toxic. In addition, a toxicity ratio is computed for each emote which defines how toxic an emote is.
-The final results are written to a new csv file called Emote_analysis.csv
+The final results are written to a new csv file called Emote_analysis.csv.
 """
 
 import pickle
