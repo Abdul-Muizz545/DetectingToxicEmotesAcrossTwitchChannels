@@ -10,4 +10,4 @@ I used the public dataset available at [Emotes-2-Vec](https://zenodo.org/records
 # How to run the code:
 1. I did not put the exact file paths when reading HasanAbi's chat logs from the HasanAbi data folder, so you would need to change those filepaths to wherever you stored the chat logs.
 2. The Emotes-2-Vec dataset was downloaded into a folder called Data on my local machine. Therefore, whenever you see "Data\filename" in the filepath, replace it to wherever you stored the public dataset followed by the filename I used in the file path.
-3. The order of how you should run the code is indicated by the number before the filename. For example, 1_robertaclassifer.py is the first step of the pipeline.
+3. The order of how you should run the code is indicated by the number before the filename. For example, 1_robertaclassifer.py is the first step of the pipeline. The filenames without numbers are used for visualizing the dataset and can be run at anytime since the output csv files made during the pipeline are already available.
