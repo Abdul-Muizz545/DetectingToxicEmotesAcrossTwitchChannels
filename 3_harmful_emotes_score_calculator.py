@@ -1,7 +1,7 @@
 """
 This file has code to determine which emotes are harmful and compute a harmful score for those emotes
 We only consider emotes with toxicity ratio >=0.5 as being potential candidates of being toxic and harmful because they were used in a toxic conversation more than non toxic
-where toxicity ratio for an emote = Number of times emote was toxic / (number of times emote was toxic + non toxic)
+where toxicity ratio for an emote = Number of times emote was toxic / (number of times emote was toxic + non toxic).
 """
 
 import numpy as np
